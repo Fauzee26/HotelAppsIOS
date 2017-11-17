@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E996B70CE7A64491E2409F18C2D3912 /* Pods-HotelAppsIOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44BAD38EA7862257D5CCB31BC6113EDB /* Pods-HotelAppsIOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D78AC7FDCABB40A0C50F551885A6CC /* Pods-HotelAppsIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8659CB6539DF9A205B81A9A6672E86 /* Pods-HotelAppsIOS-dummy.m */; };
+		25F9623C0C8CEB325683E6F8C78EB9FB /* Pods-HotelAppsIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EB1C5DCE24E0F2CEB799C7BA762E18 /* Pods-HotelAppsIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38C651E618481055250AC92410CD6C0E /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */; };
+		4A0202AE42A12E4C5BB759C2B2C8234D /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */; };
+		4AF48AA110AA49BF46D8C8098F42AE33 /* Pods-HotelAppsIOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADEF1EAFE4AF7615C723D20BB59F70 /* Pods-HotelAppsIOSUITests-dummy.m */; };
+		505ED7F3605103DD72E497ED9B3110B4 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */; };
+		59AE8466E71B3AB47C841C47FC5C547A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		765EB1C72FC554B12290D2BE4077931D /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */; };
+		8F89EF102C56F3E2A57B0A585D3CE930 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */; };
+		A71D9D1212BF8310DC97BB5FD0D14EFD /* Pods-HotelAppsIOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FD8B552FDBFF87FDEC60A3A829422D /* Pods-HotelAppsIOSTests-dummy.m */; };
+		A788C502FFD0F5C83325DE89B206C80E /* Pods-HotelAppsIOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E88600AB0818AA9B910D836546FE5BD8 /* Pods-HotelAppsIOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8D9FA1966F13C1CCCC536DD3D34381C /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */; };
+		AAC560841E19AC4AE326C007B0749A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BB9DB1BE484AB7E29C9D46C53A45E18A /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */; };
+		BD77C714035A8994839309698C5486FC /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C79D3760024FE5DFAB38A9819FB21A08 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */; };
+		D3AE5D0CFB3A4F9C8CEC1BD232499F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DEB97591FA73592791A0C7F6C5397BD5 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */; };
+		E74D1F47FCCBEDAA8C50A7CAEEC9BF3A /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */; };
+		F7499989AD0207063FA362CD7BDF4A8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F7E8FCB527354E4ED143237FF14ABCA8 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF100FB0D2704A65B7D5A3FF0ECFACF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100681E090B4DA06C7E05962627E2417;
+			remoteInfo = TextFieldEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		017970C548B2AE249B34D726C5CEFE85 /* Pods-HotelAppsIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotelAppsIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		03C6BE0E3A3D96DE71094AD95CF52494 /* Pods-HotelAppsIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HotelAppsIOS.modulemap"; sourceTree = "<group>"; };
+		0553D283922EAF82562C3A6553B72D3B /* Pods-HotelAppsIOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HotelAppsIOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		09EB1C5DCE24E0F2CEB799C7BA762E18 /* Pods-HotelAppsIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotelAppsIOS-umbrella.h"; sourceTree = "<group>"; };
+		1080FDF88E98BF6B8D60EEBF7576E348 /* Pods-HotelAppsIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotelAppsIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14DA5789DC8F2BD1BA7CA91BAE595CD9 /* Pods-HotelAppsIOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HotelAppsIOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14FE2305BD935A5E427E0DC4409D8BC8 /* Pods_HotelAppsIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HotelAppsIOS.framework; path = "Pods-HotelAppsIOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F33FEC92BA5B8839E22ED7B31E981AD /* Pods_HotelAppsIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HotelAppsIOSUITests.framework; path = "Pods-HotelAppsIOSUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8659CB6539DF9A205B81A9A6672E86 /* Pods-HotelAppsIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HotelAppsIOS-dummy.m"; sourceTree = "<group>"; };
+		201AF475EE9933D119A1073A022D4AF6 /* Pods-HotelAppsIOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HotelAppsIOSTests-resources.sh"; sourceTree = "<group>"; };
+		21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		2E92BD72D83C91B35209221132B01DE0 /* Pods-HotelAppsIOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HotelAppsIOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		378DCECD5747166572EAF7E4257EA704 /* Pods-HotelAppsIOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HotelAppsIOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		3A53660510BFF381AD8ADCF614080EFB /* Pods-HotelAppsIOSUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HotelAppsIOSUITests-resources.sh"; sourceTree = "<group>"; };
+		40D143240813D8E024E9C35DA1FC0FAA /* Pods-HotelAppsIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotelAppsIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		440AE22B9686EE066D9350AC40FBD41D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BAD38EA7862257D5CCB31BC6113EDB /* Pods-HotelAppsIOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotelAppsIOSUITests-umbrella.h"; sourceTree = "<group>"; };
+		44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		48D9FF988A6133F43C3C0796A3754AC6 /* Pods-HotelAppsIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotelAppsIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B53304E6C0CAF3E7611D0EB84C654F1 /* Pods-HotelAppsIOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HotelAppsIOSUITests.modulemap"; sourceTree = "<group>"; };
+		4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		5CA158B4014E467E5CE74DC374D58379 /* Pods_HotelAppsIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HotelAppsIOSTests.framework; path = "Pods-HotelAppsIOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67E7CC0B8D5A30EBDDE2A03DA7AEE748 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EF8E425875A6408035BF584711AB18 /* Pods-HotelAppsIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotelAppsIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		69AFB96DE8C7194B51975FEB589403CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A2996F38F2FDE51A28997F0BD5FEC4 /* Pods-HotelAppsIOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HotelAppsIOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		77FD8B552FDBFF87FDEC60A3A829422D /* Pods-HotelAppsIOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HotelAppsIOSTests-dummy.m"; sourceTree = "<group>"; };
+		806E866C8906CF97A0F2102090265347 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		926CE4BC0107EE474210831CDC3B6566 /* Pods-HotelAppsIOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HotelAppsIOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9773C24029052FBB9C88B362ECD353CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E02C9C946E587E73CEBC76713796A6F /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		B2ADEF1EAFE4AF7615C723D20BB59F70 /* Pods-HotelAppsIOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HotelAppsIOSUITests-dummy.m"; sourceTree = "<group>"; };
+		BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		C57EEE380D6BC2B06D2497336CEEB82C /* Pods-HotelAppsIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotelAppsIOS.release.xcconfig"; sourceTree = "<group>"; };
+		D9B38F404431ED6D6D32E57032812B9D /* Pods-HotelAppsIOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HotelAppsIOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC21955AF11EEAD0F74DC1A3F076B62E /* Pods-HotelAppsIOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HotelAppsIOSUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E0DC4A66D38B47093BA8CBA4D8DFA905 /* Pods-HotelAppsIOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HotelAppsIOSTests.modulemap"; sourceTree = "<group>"; };
+		E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		E77540C3188ECB08B6D8153A89B70882 /* Pods-HotelAppsIOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HotelAppsIOS-frameworks.sh"; sourceTree = "<group>"; };
+		E88600AB0818AA9B910D836546FE5BD8 /* Pods-HotelAppsIOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotelAppsIOSTests-umbrella.h"; sourceTree = "<group>"; };
+		F28DDB12D53B5A55F671853073F5DC97 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F413857D8D6D3B18059256BF4E1E850F /* Pods-HotelAppsIOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HotelAppsIOS-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EDCF337498AA733798FDD5D1C0E496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC560841E19AC4AE326C007B0749A12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387ABBD96ECC0E90B72475400000817C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AE8466E71B3AB47C841C47FC5C547A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D69C0A7E80BF67FB421489E90F92A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7499989AD0207063FA362CD7BDF4A8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E37F40F88800A54DD680B87128D26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AE5D0CFB3A4F9C8CEC1BD232499F5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0886DF59C26D74FEC40625067FDEB830 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9773C24029052FBB9C88B362ECD353CC /* Info.plist */,
+				9E02C9C946E587E73CEBC76713796A6F /* TextFieldEffects.modulemap */,
+				A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */,
+				008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */,
+				806E866C8906CF97A0F2102090265347 /* TextFieldEffects-prefix.pch */,
+				4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		280C3CB0C818A016A00F6C70FB2B6A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14FE2305BD935A5E427E0DC4409D8BC8 /* Pods_HotelAppsIOS.framework */,
+				5CA158B4014E467E5CE74DC374D58379 /* Pods_HotelAppsIOSTests.framework */,
+				1F33FEC92BA5B8839E22ED7B31E981AD /* Pods_HotelAppsIOSUITests.framework */,
+				F28DDB12D53B5A55F671853073F5DC97 /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55EDCE76AA05D63B893FD4328BFE3F6B /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */,
+				44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */,
+				E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */,
+				4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */,
+				38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */,
+				8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */,
+				9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */,
+				BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */,
+				21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */,
+				86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */,
+				0886DF59C26D74FEC40625067FDEB830 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB9A7A6FC3D2FEAD2BDF6ABD4DDE0449 /* Pods */,
+				280C3CB0C818A016A00F6C70FB2B6A0D /* Products */,
+				8417C400136968729DE96254B48F650C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F53D5FE981A5967C4272720B0A87321 /* Pods-HotelAppsIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				440AE22B9686EE066D9350AC40FBD41D /* Info.plist */,
+				E0DC4A66D38B47093BA8CBA4D8DFA905 /* Pods-HotelAppsIOSTests.modulemap */,
+				14DA5789DC8F2BD1BA7CA91BAE595CD9 /* Pods-HotelAppsIOSTests-acknowledgements.markdown */,
+				2E92BD72D83C91B35209221132B01DE0 /* Pods-HotelAppsIOSTests-acknowledgements.plist */,
+				77FD8B552FDBFF87FDEC60A3A829422D /* Pods-HotelAppsIOSTests-dummy.m */,
+				926CE4BC0107EE474210831CDC3B6566 /* Pods-HotelAppsIOSTests-frameworks.sh */,
+				201AF475EE9933D119A1073A022D4AF6 /* Pods-HotelAppsIOSTests-resources.sh */,
+				E88600AB0818AA9B910D836546FE5BD8 /* Pods-HotelAppsIOSTests-umbrella.h */,
+				40D143240813D8E024E9C35DA1FC0FAA /* Pods-HotelAppsIOSTests.debug.xcconfig */,
+				68EF8E425875A6408035BF584711AB18 /* Pods-HotelAppsIOSTests.release.xcconfig */,
+			);
+			name = "Pods-HotelAppsIOSTests";
+			path = "Target Support Files/Pods-HotelAppsIOSTests";
+			sourceTree = "<group>";
+		};
+		8417C400136968729DE96254B48F650C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B608CD6A7C4E2F58F4E79BFBBFE1C1B5 /* Pods-HotelAppsIOS */,
+				7F53D5FE981A5967C4272720B0A87321 /* Pods-HotelAppsIOSTests */,
+				C1A7096FD0D208342E2A72F63D9F62BD /* Pods-HotelAppsIOSUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B608CD6A7C4E2F58F4E79BFBBFE1C1B5 /* Pods-HotelAppsIOS */ = {
+			isa = PBXGroup;
+			children = (
+				67E7CC0B8D5A30EBDDE2A03DA7AEE748 /* Info.plist */,
+				03C6BE0E3A3D96DE71094AD95CF52494 /* Pods-HotelAppsIOS.modulemap */,
+				378DCECD5747166572EAF7E4257EA704 /* Pods-HotelAppsIOS-acknowledgements.markdown */,
+				74A2996F38F2FDE51A28997F0BD5FEC4 /* Pods-HotelAppsIOS-acknowledgements.plist */,
+				1F8659CB6539DF9A205B81A9A6672E86 /* Pods-HotelAppsIOS-dummy.m */,
+				E77540C3188ECB08B6D8153A89B70882 /* Pods-HotelAppsIOS-frameworks.sh */,
+				F413857D8D6D3B18059256BF4E1E850F /* Pods-HotelAppsIOS-resources.sh */,
+				09EB1C5DCE24E0F2CEB799C7BA762E18 /* Pods-HotelAppsIOS-umbrella.h */,
+				017970C548B2AE249B34D726C5CEFE85 /* Pods-HotelAppsIOS.debug.xcconfig */,
+				C57EEE380D6BC2B06D2497336CEEB82C /* Pods-HotelAppsIOS.release.xcconfig */,
+			);
+			name = "Pods-HotelAppsIOS";
+			path = "Target Support Files/Pods-HotelAppsIOS";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1A7096FD0D208342E2A72F63D9F62BD /* Pods-HotelAppsIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69AFB96DE8C7194B51975FEB589403CE /* Info.plist */,
+				4B53304E6C0CAF3E7611D0EB84C654F1 /* Pods-HotelAppsIOSUITests.modulemap */,
+				D9B38F404431ED6D6D32E57032812B9D /* Pods-HotelAppsIOSUITests-acknowledgements.markdown */,
+				0553D283922EAF82562C3A6553B72D3B /* Pods-HotelAppsIOSUITests-acknowledgements.plist */,
+				B2ADEF1EAFE4AF7615C723D20BB59F70 /* Pods-HotelAppsIOSUITests-dummy.m */,
+				DC21955AF11EEAD0F74DC1A3F076B62E /* Pods-HotelAppsIOSUITests-frameworks.sh */,
+				3A53660510BFF381AD8ADCF614080EFB /* Pods-HotelAppsIOSUITests-resources.sh */,
+				44BAD38EA7862257D5CCB31BC6113EDB /* Pods-HotelAppsIOSUITests-umbrella.h */,
+				48D9FF988A6133F43C3C0796A3754AC6 /* Pods-HotelAppsIOSUITests.debug.xcconfig */,
+				1080FDF88E98BF6B8D60EEBF7576E348 /* Pods-HotelAppsIOSUITests.release.xcconfig */,
+			);
+			name = "Pods-HotelAppsIOSUITests";
+			path = "Target Support Files/Pods-HotelAppsIOSUITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FB9A7A6FC3D2FEAD2BDF6ABD4DDE0449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55EDCE76AA05D63B893FD4328BFE3F6B /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9A30F28E584FFEA8102DD097C3B69F94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F9623C0C8CEB325683E6F8C78EB9FB /* Pods-HotelAppsIOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFB24ECA64514FF25AF8F89DB011CC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A788C502FFD0F5C83325DE89B206C80E /* Pods-HotelAppsIOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFD97D7D48A10118308A4968612EAAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E996B70CE7A64491E2409F18C2D3912 /* Pods-HotelAppsIOSUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB13310958388B5063973C945E7952F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD77C714035A8994839309698C5486FC /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		100681E090B4DA06C7E05962627E2417 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75916E09D67A2DA4B54E32EED22EF0E7 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				D8C9BBE6508FC438C6044B430DEAA7AB /* Sources */,
+				F5D69C0A7E80BF67FB421489E90F92A2 /* Frameworks */,
+				EBB13310958388B5063973C945E7952F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = F28DDB12D53B5A55F671853073F5DC97 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		598D52422E8B1B497D2FF036817EB833 /* Pods-HotelAppsIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56FE963C08FF5A57A5358B494B2DB13E /* Build configuration list for PBXNativeTarget "Pods-HotelAppsIOSTests" */;
+			buildPhases = (
+				9554F5046698598BC2D083C75D7E21B0 /* Sources */,
+				387ABBD96ECC0E90B72475400000817C /* Frameworks */,
+				DAFB24ECA64514FF25AF8F89DB011CC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HotelAppsIOSTests";
+			productName = "Pods-HotelAppsIOSTests";
+			productReference = 5CA158B4014E467E5CE74DC374D58379 /* Pods_HotelAppsIOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BE8EF89BDF0BFCF41C9FAADD409F50B /* Pods-HotelAppsIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B69016AC6B92BF89AA2BCB8AAF20FF6B /* Build configuration list for PBXNativeTarget "Pods-HotelAppsIOS" */;
+			buildPhases = (
+				0B07805930D4A98D2F3DB4F3E8D43730 /* Sources */,
+				F5E37F40F88800A54DD680B87128D26C /* Frameworks */,
+				9A30F28E584FFEA8102DD097C3B69F94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D42646C458CA650B268D635C2BC351 /* PBXTargetDependency */,
+			);
+			name = "Pods-HotelAppsIOS";
+			productName = "Pods-HotelAppsIOS";
+			productReference = 14FE2305BD935A5E427E0DC4409D8BC8 /* Pods_HotelAppsIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B67B34A78E59B43E2F456D10992B00AB /* Pods-HotelAppsIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A47887BFB4B907607BA42923C13DF2D /* Build configuration list for PBXNativeTarget "Pods-HotelAppsIOSUITests" */;
+			buildPhases = (
+				97CAB3C76A88CAE9F9B6652DD5065B34 /* Sources */,
+				03EDCF337498AA733798FDD5D1C0E496 /* Frameworks */,
+				DEFD97D7D48A10118308A4968612EAAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HotelAppsIOSUITests";
+			productName = "Pods-HotelAppsIOSUITests";
+			productReference = 1F33FEC92BA5B8839E22ED7B31E981AD /* Pods_HotelAppsIOSUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 280C3CB0C818A016A00F6C70FB2B6A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BE8EF89BDF0BFCF41C9FAADD409F50B /* Pods-HotelAppsIOS */,
+				598D52422E8B1B497D2FF036817EB833 /* Pods-HotelAppsIOSTests */,
+				B67B34A78E59B43E2F456D10992B00AB /* Pods-HotelAppsIOSUITests */,
+				100681E090B4DA06C7E05962627E2417 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B07805930D4A98D2F3DB4F3E8D43730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D78AC7FDCABB40A0C50F551885A6CC /* Pods-HotelAppsIOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9554F5046698598BC2D083C75D7E21B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71D9D1212BF8310DC97BB5FD0D14EFD /* Pods-HotelAppsIOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CAB3C76A88CAE9F9B6652DD5065B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF48AA110AA49BF46D8C8098F42AE33 /* Pods-HotelAppsIOSUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C9BBE6508FC438C6044B430DEAA7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C651E618481055250AC92410CD6C0E /* AkiraTextField.swift in Sources */,
+				DEB97591FA73592791A0C7F6C5397BD5 /* HoshiTextField.swift in Sources */,
+				E74D1F47FCCBEDAA8C50A7CAEEC9BF3A /* IsaoTextField.swift in Sources */,
+				F7E8FCB527354E4ED143237FF14ABCA8 /* JiroTextField.swift in Sources */,
+				8F89EF102C56F3E2A57B0A585D3CE930 /* KaedeTextField.swift in Sources */,
+				765EB1C72FC554B12290D2BE4077931D /* MadokaTextField.swift in Sources */,
+				505ED7F3605103DD72E497ED9B3110B4 /* MinoruTextField.swift in Sources */,
+				C79D3760024FE5DFAB38A9819FB21A08 /* TextFieldEffects-dummy.m in Sources */,
+				BB9DB1BE484AB7E29C9D46C53A45E18A /* TextFieldEffects.swift in Sources */,
+				A8D9FA1966F13C1CCCC536DD3D34381C /* YokoTextField.swift in Sources */,
+				4A0202AE42A12E4C5BB759C2B2C8234D /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29D42646C458CA650B268D635C2BC351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = 100681E090B4DA06C7E05962627E2417 /* TextFieldEffects */;
+			targetProxy = FF100FB0D2704A65B7D5A3FF0ECFACF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3B6AA2169C1E1DEBD83C24F1A6090E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D143240813D8E024E9C35DA1FC0FAA /* Pods-HotelAppsIOSTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotelAppsIOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HotelAppsIOSTests/Pods-HotelAppsIOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HotelAppsIOSTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62BE2A1E841BC1563B710A08575FA153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EF8E425875A6408035BF584711AB18 /* Pods-HotelAppsIOSTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotelAppsIOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HotelAppsIOSTests/Pods-HotelAppsIOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HotelAppsIOSTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8877468E93DAF4406DD713A4761F1122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BC6ADDCCABB125438D5A4F5D54B72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1080FDF88E98BF6B8D60EEBF7576E348 /* Pods-HotelAppsIOSUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotelAppsIOSUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HotelAppsIOSUITests/Pods-HotelAppsIOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HotelAppsIOSUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C394E3111524D2DB4C53AD9EFCD5AA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D9FF988A6133F43C3C0796A3754AC6 /* Pods-HotelAppsIOSUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotelAppsIOSUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HotelAppsIOSUITests/Pods-HotelAppsIOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HotelAppsIOSUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8E8E9F68F8F042A61CB2962108BE1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D36A6C6AD40D295B6ABE6AF437FFA721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017970C548B2AE249B34D726C5CEFE85 /* Pods-HotelAppsIOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotelAppsIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HotelAppsIOS/Pods-HotelAppsIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HotelAppsIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F59B72BD0D69EF99ED2776344AF2ABCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57EEE380D6BC2B06D2497336CEEB82C /* Pods-HotelAppsIOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotelAppsIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HotelAppsIOS/Pods-HotelAppsIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HotelAppsIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56FE963C08FF5A57A5358B494B2DB13E /* Build configuration list for PBXNativeTarget "Pods-HotelAppsIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6AA2169C1E1DEBD83C24F1A6090E9F /* Debug */,
+				62BE2A1E841BC1563B710A08575FA153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75916E09D67A2DA4B54E32EED22EF0E7 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E8E9F68F8F042A61CB2962108BE1D8 /* Debug */,
+				8877468E93DAF4406DD713A4761F1122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A47887BFB4B907607BA42923C13DF2D /* Build configuration list for PBXNativeTarget "Pods-HotelAppsIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C394E3111524D2DB4C53AD9EFCD5AA3B /* Debug */,
+				B8BC6ADDCCABB125438D5A4F5D54B72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B69016AC6B92BF89AA2BCB8AAF20FF6B /* Build configuration list for PBXNativeTarget "Pods-HotelAppsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36A6C6AD40D295B6ABE6AF437FFA721 /* Debug */,
+				F59B72BD0D69EF99ED2776344AF2ABCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
